@@ -1,0 +1,90 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: Gotham-Bold;
+  src: url(Gotham-Bold.otf);
+  src: url(GothamBold.ttf);
+}
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+}
+
+.links-container {
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+}
+
+.link-box {
+  height: 100%;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity ease 0.3s;
+  text-decoration: none;
+}
+
+.shop {
+  background-image: url("../images/images.jpeg");
+}
+
+.shop:hover {
+  opacity: 0.8;
+}
+
+.box {
+  background-image: url("../images/images2.jpeg");
+}
+
+.box:hover {
+  opacity: 0.8;
+}
+
+h2 {
+  color: white;
+  font-family: Gotham-Bold;
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  h2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  h2 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
