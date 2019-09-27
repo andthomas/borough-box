@@ -47,7 +47,7 @@ body {
 }
 
 .shop {
-  background-image: url("../images/images.jpeg");
+  background-image: url("../images/the-shop.png");
 }
 
 .shop:hover {
@@ -55,7 +55,7 @@ body {
 }
 
 .box {
-  background-image: url("../images/images2.jpeg");
+  background-image: url("../images/the-box.png");
 }
 
 .box:hover {
