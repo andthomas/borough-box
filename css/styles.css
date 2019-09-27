@@ -47,7 +47,7 @@ body {
 }
 
 .shop {
-  background-image: url("../images/the-shop-min.png");
+  background-image: url("../images/shop.png");
 }
 
 .shop:hover {
@@ -55,7 +55,7 @@ body {
 }
 
 .box {
-  background-image: url("../images/the-box-min.png");
+  background-image: url("../images/box.png");
 }
 
 .box:hover {
