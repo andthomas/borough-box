@@ -44,10 +44,14 @@ body {
   cursor: pointer;
   transition: opacity ease 0.3s;
   text-decoration: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .shop {
   background-image: url("https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/borough/shop.png");
+  border-bottom: 1px solid black;
 }
 
 .shop:hover {
