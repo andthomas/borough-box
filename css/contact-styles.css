@@ -74,9 +74,13 @@ svg {
   body {
     flex-direction: column;
   }
+  .contact-details {
+    height: auto;
+  }
   section {
     width: 100%;
-    height: 66vh;
+    height: auto;
+    padding-bottom: 30px;
   }
   aside {
     width: 100%;
