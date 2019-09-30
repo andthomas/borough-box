@@ -30,6 +30,11 @@ p {
   letter-spacing: 4px;
 }
 
+.sub {
+  font-size:15px;
+  letter-spacing: 2px;
+}
+
 section {
   width: 50%;
   height:100vh;
@@ -50,7 +55,7 @@ section {
 aside {
   width: 50%;
   height:100vh;
-  background-image: url(../images/racks.png);
+  background-image: url("https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/borough/racks.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

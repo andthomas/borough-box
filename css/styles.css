@@ -47,7 +47,7 @@ body {
 }
 
 .shop {
-  background-image: url("../images/shop.png");
+  background-image: url("https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/borough/shop.png");
 }
 
 .shop:hover {
@@ -55,7 +55,7 @@ body {
 }
 
 .box {
-  background-image: url("../images/box.png");
+  background-image: url("https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/borough/box.png");
 }
 
 .box:hover {
