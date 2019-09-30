@@ -33,6 +33,11 @@ p {
 .sub {
   font-size:15px;
   letter-spacing: 2px;
+  line-height: 16px;
+}
+
+.pad {
+  padding-top: 18px;
 }
 
 section {
