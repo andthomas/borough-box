@@ -5,8 +5,29 @@
 }
 
 @font-face {
+  font-family: Gotham-Light;
+  src: url(Gotham-Light.otf);
+  src: url(GothamLight.ttf);
+}
+
+@font-face {
+  font-family: Gotham-Thin;
+  src: url(Gotham-Thin.otf);
+}
+
+@font-face {
+  font-family: Gotham-Book;
+  src: url(Gotham-Book.otf);
+}
+
+@font-face {
   font-family: Gotham-Medium;
   src: url(GothamMedium.ttf);
+}
+
+@font-face {
+  font-family: Gotham-Light-Italic;
+  src: url(GothamLightItalic.ttf);
 }
 
 body {
@@ -26,18 +47,48 @@ p {
 }
 
 .header {
-  font-size:22px;
+  font-size:41px;
+  line-height:17px;
+  letter-spacing: 6px;
+}
+
+.sub-header {
+  font-family: Gotham-Medium;
+  padding-top: 30px;
+  font-size: 21px;
   letter-spacing: 4px;
 }
 
-.sub {
+.address {
+  font-family: Gotham-Light;
   font-size:15px;
   letter-spacing: 2px;
-  line-height: 16px;
+}
+
+.ad-top {
+  padding-top: 36px;
+}
+
+.hours {
+  font-family: Gotham-Light;
+  font-size:15px;
+  letter-spacing: 2px;
+}
+.h-top {
+  font-family: Gotham-Medium;
+  padding-top: 30px;
+  font-size:15px;
+  letter-spacing: 2px;
+}
+
+.sub {
+  font-family: Gotham-Light-Italic;
+  font-size:14px;
+  letter-spacing: 2px;
 }
 
 .pad {
-  padding-top: 18px;
+  margin-top: 18px;
 }
 
 section {
@@ -51,7 +102,6 @@ section {
 }
 
 .contact-details {
-  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -66,8 +116,9 @@ aside {
   background-size: cover;
 }
 
-svg {
+a {
   color: #3a4b5f;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {
