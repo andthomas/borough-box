@@ -66,7 +66,11 @@ p {
 }
 
 .ad-top {
-  padding-top: 36px;
+  margin-top: 13px;
+}
+
+.tall-euc {
+  width: 33%;
 }
 
 .hours {
