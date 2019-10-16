@@ -1,33 +1,28 @@
 @font-face {
   font-family: Gotham-Bold;
-  src: url(Gotham-Bold.otf);
-  src: url(GothamBold.ttf);
-}
-
-@font-face {
-  font-family: Gotham-Light;
-  src: url(Gotham-Light.otf);
-  src: url(GothamLight.ttf);
-}
-
-@font-face {
-  font-family: Gotham-Thin;
-  src: url(Gotham-Thin.otf);
-}
-
-@font-face {
-  font-family: Gotham-Book;
-  src: url(Gotham-Book.otf);
+  src: url(Gotham-Bold.otf),
+    url(GothamBold.ttf) format('truetype'),
+    url(GothamBold.woff) format('woff');
 }
 
 @font-face {
   font-family: Gotham-Medium;
-  src: url(GothamMedium.ttf);
+  src: url(GothamMedium.ttf) format('truetype'),
+    url(GothamMedium.woff) format('woff');
+}
+
+@font-face {
+  font-family: Gotham-Light;
+  src: url(Gotham-Light.otf),
+    url(GothamLight.ttf) format('truetype'),
+    url(GothamLight.woff) format('woff');
 }
 
 @font-face {
   font-family: Gotham-Light-Italic;
-  src: url(GothamLightItalic.ttf);
+  src: url(GothamLightItalic.otf),
+    url(GothamLightItalic.ttf) format('truetype'),
+    url(GothamLightItalic.woff) format('woff');
 }
 
 body {
@@ -50,11 +45,19 @@ p {
   font-size:41px;
   line-height:17px;
   letter-spacing: 6px;
+  margin-top:0;
+  padding-top:0;
+}
+
+.header2 {
+  font-size:41px;
+  line-height:17px;
+  letter-spacing: 6px;
 }
 
 .sub-header {
   font-family: Gotham-Medium;
-  padding-top: 30px;
+  margin-top: 20px;
   font-size: 21px;
   letter-spacing: 4px;
 }
@@ -63,6 +66,13 @@ p {
   font-family: Gotham-Light;
   font-size:15px;
   letter-spacing: 2px;
+}
+
+.address2 {
+  font-family: Gotham-Light;
+  font-size:15px;
+  letter-spacing: 2px;
+  padding-top:20px;
 }
 
 .ad-top {
@@ -92,7 +102,8 @@ p {
 }
 
 .pad {
-  margin-top: 18px;
+  display: block;
+  margin-top: 20px;
 }
 
 section {
