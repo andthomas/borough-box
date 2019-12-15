@@ -1,3 +1,5 @@
+deploy:
+  provider: firebase
 script:
  - echo “Deploy!!”
 after_success:
