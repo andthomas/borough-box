@@ -4,3 +4,6 @@ script:
  - echo “Deploy!!”
 after_success:
   - firebase deploy --project borough-box --token $FIREBASE_TOKEN
+notifications:
+  email:
+    - josh.parry97@gmail.com
